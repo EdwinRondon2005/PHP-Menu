@@ -1,0 +1,47 @@
+form 
+{
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    background-color: rgb(178, 255, 159);
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgb(146, 146, 146);
+    width: 400px;
+}
+
+input[type="text"] 
+{
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 20px;
+    border: 1px solid rgb(158, 158, 158);
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+input[type="text"]:hover 
+{
+    border: 1px solid rgb(0, 4, 255);
+}
+
+label 
+{
+    display: block;
+    margin-bottom: 7px;
+}
+
+input[type="submit"] 
+{
+    background-color: rgb(0, 109, 0);
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover 
+{
+    background-color: rgb(0, 179, 54);
+}
